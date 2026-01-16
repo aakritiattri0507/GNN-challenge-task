@@ -1,7 +1,11 @@
 # GNN-challenge-task
+<<<<<<< HEAD
 # GNN Challenge: Drug–Target Interaction Classification (Davis Dataset)
 
 ## 📌 Problem Definition
+=======
+##  Problem Definition
+>>>>>>> cfa9cd718606814d8255874dc775c61d694292e7
 This challenge focuses on **binary classification of drug–target interactions (DTIs)** using **Graph Neural Networks (GNNs)**.  
 Given a drug molecule graph and a protein target graph, the goal is to predict whether the interaction is **strong or weak**.
 
@@ -14,13 +18,21 @@ This problem is covered under **DGL Lectures 1.1–4.6**, including:
 
 ---
 
+<<<<<<< HEAD
 ## 🧠 Problem Type
+=======
+##  Problem Type
+>>>>>>> cfa9cd718606814d8255874dc775c61d694292e7
 - **Graph Classification**
 - **Binary Classification**
 
 ---
 
+<<<<<<< HEAD
 ## 📊 Dataset
+=======
+##  Dataset
+>>>>>>> cfa9cd718606814d8255874dc775c61d694292e7
 - **Dataset**: Davis Drug–Target Interaction Dataset
 - **Source**: Public benchmark dataset used in DeepDTA and GraphDTA
 - **Description**:
@@ -34,7 +46,11 @@ This problem is covered under **DGL Lectures 1.1–4.6**, including:
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 Objective Metric
+=======
+##  Objective Metric
+>>>>>>> cfa9cd718606814d8255874dc775c61d694292e7
 The primary evaluation metric is:
 
 - **F1-score (macro)**
@@ -51,7 +67,11 @@ Secondary metrics:
 
 ---
 
+<<<<<<< HEAD
 ## ⚙️ Constraints
+=======
+## Constraints
+>>>>>>> cfa9cd718606814d8255874dc775c61d694292e7
 - No external datasets allowed
 - Must use only the Davis dataset
 - Model must train within **reasonable time on a single GPU or CPU**
@@ -59,7 +79,11 @@ Secondary metrics:
 
 ---
 
+<<<<<<< HEAD
 ## 🏗 Model Architecture
+=======
+##  Model Architecture
+>>>>>>> cfa9cd718606814d8255874dc775c61d694292e7
 - Drug encoder: **GIN (Graph Isomorphism Network)**
 - Protein encoder: **GIN**
 - Graph-level pooling: Global mean pooling
@@ -69,7 +93,11 @@ Secondary metrics:
 
 ---
 
+<<<<<<< HEAD
 ## 🧪 Training Details
+=======
+##  Training Details
+>>>>>>> cfa9cd718606814d8255874dc775c61d694292e7
 - Optimizer: Adam
 - Loss: BCEWithLogitsLoss
 - Sampling: WeightedRandomSampler
@@ -77,7 +105,11 @@ Secondary metrics:
 
 ---
 
+<<<<<<< HEAD
 ## 📦 Installation
+=======
+##  Installation
+>>>>>>> cfa9cd718606814d8255874dc775c61d694292e7
 
 ```bash
 conda create -n dgl_challenge python=3.9 -y
