@@ -1,5 +1,5 @@
 # GNN-challenge-task
-## 📌 Problem Definition
+##  Problem Definition
 This challenge focuses on **binary classification of drug–target interactions (DTIs)** using **Graph Neural Networks (GNNs)**.  
 Given a drug molecule graph and a protein target graph, the goal is to predict whether the interaction is **strong or weak**.
 
@@ -12,13 +12,13 @@ This problem is covered under **DGL Lectures 1.1–4.6**, including:
 
 ---
 
-## 🧠 Problem Type
+##  Problem Type
 - **Graph Classification**
 - **Binary Classification**
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - **Dataset**: Davis Drug–Target Interaction Dataset
 - **Source**: Public benchmark dataset used in DeepDTA and GraphDTA
 - **Description**:
@@ -32,7 +32,7 @@ This problem is covered under **DGL Lectures 1.1–4.6**, including:
 
 ---
 
-## 🎯 Objective Metric
+##  Objective Metric
 The primary evaluation metric is:
 
 - **F1-score (macro)**
@@ -49,7 +49,7 @@ Secondary metrics:
 
 ---
 
-## ⚙️ Constraints
+## Constraints
 - No external datasets allowed
 - Must use only the Davis dataset
 - Model must train within **reasonable time on a single GPU or CPU**
@@ -57,7 +57,7 @@ Secondary metrics:
 
 ---
 
-## 🏗 Model Architecture
+##  Model Architecture
 - Drug encoder: **GIN (Graph Isomorphism Network)**
 - Protein encoder: **GIN**
 - Graph-level pooling: Global mean pooling
@@ -67,7 +67,7 @@ Secondary metrics:
 
 ---
 
-## 🧪 Training Details
+##  Training Details
 - Optimizer: Adam
 - Loss: BCEWithLogitsLoss
 - Sampling: WeightedRandomSampler
@@ -75,7 +75,7 @@ Secondary metrics:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 conda create -n dgl_challenge python=3.9 -y
