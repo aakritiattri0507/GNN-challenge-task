@@ -1,7 +1,4 @@
 # GNN-challenge-task
-
-# GNN Challenge: Drug–Target Interaction Classification (Davis Dataset)
-
 ## 📌 Problem Definition
 This challenge focuses on **binary classification of drug–target interactions (DTIs)** using **Graph Neural Networks (GNNs)**.  
 Given a drug molecule graph and a protein target graph, the goal is to predict whether the interaction is **strong or weak**.
