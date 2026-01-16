@@ -1,6 +1,5 @@
 
 # GNN Challenge: Drug–Target Interaction Classification (Davis Dataset)
-=======
 ##  Problem Definition
 
 This challenge focuses on **binary classification of drug–target interactions (DTIs)** using **Graph Neural Networks (GNNs)**.  
@@ -52,7 +51,7 @@ Secondary metrics:
 - ROC-AUC
 
 ---
-=======
+
 ## Constraints
 
 - No external datasets allowed
